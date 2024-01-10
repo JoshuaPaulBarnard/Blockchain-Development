@@ -1,0 +1,18 @@
+{
+  "name": "ananos-airdropper",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node index.js --test",
+    "validate": "node index.js --public --validate-only",
+    "start": "node index.js --public"
+  },
+  "dependencies": {
+    "@ltd/j-toml": "1.20.0",
+    "csv": "5.5.3",
+    "fs-extra": "10.0.0",
+    "lodash.partition": "4.6.0",
+    "stellar-sdk": "9.0.1"
+  }
+}
